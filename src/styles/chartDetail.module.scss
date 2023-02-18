@@ -1,0 +1,20 @@
+.container {
+    border: 1px darkslategrey solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    align-items: center;
+    gap: 1rem;
+
+    img{
+        width: 85%;
+    }
+
+    p {
+        font-weight: bold;
+        line-height: 1.6rem;
+    }
+}

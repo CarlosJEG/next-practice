@@ -1,0 +1,45 @@
+.homeTitle {
+    font-weight: bold;
+    margin: 1rem;
+    text-align: center;
+}
+
+.body {
+    width: 85%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+    .container{
+        display: flex;
+        width: 550px;
+        height: 230px;
+        gap: 1rem;
+        align-items: center;
+        border-radius: 15px;
+        border: 1px darkslategrey solid;
+
+        .image {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+            img {
+                width: 75%;
+            }
+        }
+
+        .description {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+
+            button {
+                cursor: pointer;
+            }
+        }
+    }
+}

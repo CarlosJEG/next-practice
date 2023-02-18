@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+
+    .container {
+        width: 85%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            gap: 0.4rem;
+
+            li {
+                list-style: none;
+
+                a {
+                    color: white;
+                    font-weight: bold;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+}
